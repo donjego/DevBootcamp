@@ -1,4 +1,3 @@
-# test de test test
 puts "Type je naam in aub"
 naam = gets.chomp
 
@@ -13,7 +12,7 @@ def vraag_geslacht
   elsif (geslacht == "v" || geslacht == "V")
     return "v"
   else
-    puts "Dat is geen geldige invoer: kies m of v"
+    puts "Dat is geen geldige invoer"
     return vraag_geslacht
   end
 end
@@ -37,5 +36,5 @@ woonplaats = gets.chomp
 if woonplaats == "Amsterdam"
   puts "Wat leuk! Ik woon ook in #{woonplaats}!"
 else
-  puts "Waarom woon je daar? Amsterdam is veel leuker joh!!"
+  puts "Waarom woon je daar? Amsterdam is veel leuker joh!"
 end
