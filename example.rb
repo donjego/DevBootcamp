@@ -12,7 +12,7 @@ def vraag_geslacht
   elsif (geslacht == "v" || geslacht == "V")
     return "v"
   else
-    puts "Dat is geen geldige invoer"
+    puts "Dat is geen geldige invoer: kies m of v"
     return vraag_geslacht
   end
 end
