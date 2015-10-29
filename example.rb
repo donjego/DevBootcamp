@@ -36,7 +36,5 @@ woonplaats = gets.chomp
 if woonplaats == "Amsterdam"
   puts "Wat leuk! Ik woon ook in #{woonplaats}!"
 else
-  puts "Waarom woon je daar? Amsterdam is veel leuker joh!"
+  puts "Waarom woon je daar? Amsterdam is veel leuker joh!!"
 end
-
-
