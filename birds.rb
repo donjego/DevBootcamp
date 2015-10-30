@@ -1,9 +1,9 @@
 class Birds
- attr_accessor :birdname, :price
- def initialize birdname, price
-   @birdname = birdname
-   @price = price
- end
+  attr_accessor :birdname, :price
+  def initialize birdname, price
+    @birdname = birdname
+    @price = price
+  end
 end
 
 class Pets < Birds
@@ -21,7 +21,7 @@ class Voorraad
     @birds = [
       Pets.new("Parkietje", 50),
       Prey.new("Havik", 250),
-      Prey.new("Adelaar", 50),
+      Prey.new("Adelaar", 500),
       Exotic.new("Parrot", 100)
     ]
   end
